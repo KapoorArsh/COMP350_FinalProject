@@ -1,0 +1,168 @@
+Project Title: Multi-Screen 3D Fitness Simulation System with Real-Time UI Synchronization
+
+Objective:
+Design and implement an interactive 3D fitness simulation system in which a user controls a humanoid character performing various physical activities. The system must automatically detect workout types based on movement and display synchronized, realistic fitness metrics across a simulated smartphone UI and smartwatch UI.
+
+Target Users:
+Students and general users interested in fitness tracking and interactive simulation-based experiences.
+
+System Requirements:
+
+1. Main Screen – 3D Simulation Environment
+
+* Develop a 3D environment containing a controllable humanoid character.
+* Enable keyboard and mouse interaction for controlling movement.
+* Supported movements must include:
+
+  * Walking
+  * Jogging
+  * Running
+  * Jumping
+  * Squats
+  * Push-ups
+* Implement smooth animation transitions between movements.
+* Automatically detect the type of workout based on movement patterns without requiring manual input.
+
+2. Phone UI Screen
+
+* Create a smartphone interface with realistic dimensions and aspect ratio.
+* Display the following metrics:
+
+  * Current workout type (auto-detected)
+  * Calories burned
+  * Duration
+  * Heart rate (simulated realistically)
+  * Step count or repetition count depending on activity
+* Ensure all values update in real time and reflect realistic physiological changes.
+
+3. Smartwatch UI Screen
+
+* Create a smartwatch interface with accurate size and layout constraints.
+* Display:
+
+  * Heart rate
+  * Active calories
+  * Workout type
+  * Timer
+* Ensure synchronization with the main simulation and phone UI.
+
+4. Real-Time Synchronization
+
+* Implement a centralized state management system to synchronize all three screens.
+* Ensure that any movement in the 3D environment updates both UI screens instantly and consistently.
+* Avoid unrealistic metric changes; all updates must follow gradual and logical progression.
+
+5. Simulation Structure
+   Implement a full simulation lifecycle:
+
+* Start screen (menu or instructions)
+* Main simulation screen (3D interaction)
+* End screen (summary of performance metrics)
+
+Technical Requirements:
+
+1. Finite State Machine
+
+* Implement a finite state machine with at least four states:
+
+  * Idle
+  * Movement (walk/run/jog)
+  * Workout (squat/push-up)
+  * Recovery/rest
+* Define clear transitions based on user input and detected activity.
+
+2. Data Structures and Algorithms
+
+* Record movement data such as position coordinates, duration, and activity type.
+* Implement:
+
+  * A search algorithm to retrieve specific movement or activity data
+  * A sorting algorithm to rank activities (e.g., by intensity, duration, or efficiency)
+* Export sorted results to an external file.
+
+3. Programming Constructs
+
+* Use loops (for and while)
+* Use random() and/or noise() for environment or behavior variation
+* Use conditional statements (if, else, switch)
+* Use both static arrays and dynamic arrays (e.g., ArrayList)
+
+4. Stack Implementation
+
+* Implement a stack using push and pop operations
+* Use the stack to manage hierarchical transformations or gesture sequences
+
+5. Object-Oriented Design
+
+* Create a minimum three-level inheritance hierarchy (grandparent → parent → child)
+* Include:
+
+  * At least one abstract class
+  * At least one interface
+* Separate classes for major components such as character control, UI systems, data tracking, and simulation logic
+
+6. Functions and Interactions
+
+* Implement multiple custom functions/methods
+* Include both keyboard and mouse interaction
+
+7. Custom UI Components
+
+* Design and implement at least five custom UI components, such as:
+
+  * Buttons
+  * Sliders
+  * Text displays
+  * Graphs or charts
+  * Progress indicators
+
+Realism Requirements:
+
+* Heart rate must increase and decrease gradually based on activity intensity
+* Calorie burn must depend on duration and type of activity
+* Transitions between activities must be smooth and realistic
+* Avoid artificial or exaggerated metric changes
+
+Additional Deliverables:
+
+1. Two Prototypes
+
+* Develop two distinct versions of the system for comparison
+
+2. Documentation
+   Include:
+
+* Background research
+* Wireframes
+* UML diagrams:
+
+  * Class diagram with inheritance
+  * Use case diagram
+  * State diagram
+  * Sequence diagram
+
+3. User Testing and Survey
+
+* Conduct a survey with at least 10 users
+* Use a Likert scale to compare the two prototypes
+* Include user profiles and feedback
+
+4. Data Analysis
+
+* Use Excel to:
+
+  * Compute confidence intervals
+  * Generate bar charts with error bars
+  * Perform statistical tests such as t-test or ANOVA
+
+5. Performance Evaluation
+
+* Measure user accuracy and speed
+* Compare performance across both prototypes
+
+6. Video Demonstration
+
+* Provide a usability testing video (YouTube link or file)
+
+Final Requirement:
+The system must demonstrate creativity, completeness, and a unique approach. Avoid generic or overused concepts. Ensure that the final implementation integrates all components into a cohesive, realistic, and technically sound simulation.

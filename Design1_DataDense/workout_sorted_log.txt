@@ -1,0 +1,9 @@
+=== FITTRACK PRO — Sorted Workout Log (Calories Desc) ===
+Rank | Type       | Duration | Calories | Steps | AvgHR
+-----+------------+----------+----------+-------+------
+01   | Running     | 00:33   | 2.5    | 31 | 147.8
+02   | Walking     | 00:15   | 1.0    | 16 | 100.9
+03   | Idle     | 00:01   | 0.0    | 0 | 83.7
+
+=== Movement Coordinate Log ===
+Time,X,Y,Activity,HR
